@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>YouTube Channel Banner Downloader</title>
+  
+  
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+  <div class="container">
+    <h1>YouTube Channel Banner Downloader</h1>
+    
+  
+  
+    <input type="text" id="channelInput" placeholder="Enter Channel ID or URL">
+    <button id="fetchButton">Fetch Banner</button>
+    <div id="bannerContainer"></div>
+    <div id="downloadLinks" style="display: none;">
+      <button data-width="1855" data-height="423">1855x423</button>
+      <button data-width="1546" data-height="423">1546x423</button>
+      <button data-width="2560" data-height="1440">2560x1440</button>
+      <button data-width="2560" data-height="423">2560x423</button>
+    </div>
+
+    
+  </div>
+  
+  <canvas id="canvas" style="display: none;"></canvas>
+  
+  <script src="js/script.js"></script>
+</body>
+
+</html>
